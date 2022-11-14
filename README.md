@@ -2,25 +2,18 @@
 
 ## Description
 
-Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
+I created this project to help aid retail stores with their inventory through an online database using MySql, Express.js API and Sequelize. Through this database theyll be able to delete, create, update and retrieve any item in their system.
 
-- What was your motivation?
-- Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
-- What problem does it solve?
-- What did you learn?
 
 ## Table of Contents
 
 
 
-- [Installation](#installation)
+
 - [Usage](#usage)
 - [Credits](#credits)
 
 
-## Installation
-
-What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
 
 ## Usage
 
@@ -28,7 +21,7 @@ Provide instructions and examples for use.
 
 To add a screenshot, create an `assets/images`
 
-![alt text](assets/images/screenshot.png)
+[Vido Usage]()
 
 ## Credits
 
