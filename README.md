@@ -17,11 +17,7 @@ I created this project to help aid retail stores with their inventory through an
 
 ## Usage
 
-Provide instructions and examples for use.
-
-To add a screenshot, create an `assets/images`
-
-[Vido Usage]()
+[Vido Usage](https://app.castify.com/view/8de1a360-bf04-4255-b156-d8fdecc93d47)
 
 ## Credits
 
@@ -33,9 +29,5 @@ To add a screenshot, create an `assets/images`
 
 ## Features
 
-If your project has a lot of features, list them here.
+This project GETS all tags, categories and products from the database. It also usues PUT and DELETE methods to perform Updates and deletes, on the backend, via insomnia.
 
-
-## Tests
-
-Go the extra mile and write tests for your application. Then provide examples on how to run them here.
