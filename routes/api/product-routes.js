@@ -10,7 +10,7 @@ router.get('/', async (req, res) => {
   try{
     const productData = await Product.findAll({
       include: [
-        { model: Product }
+        { all: true, nested: true }
       ]
     })
     if (!productData) {
@@ -30,20 +30,20 @@ router.get('/:id', async (req, res) => {
   // be sure to include its associated Category and Tag data
   try {
     const productData = await Product.findByPk(req.params.id, {
-      include: [{ model: Product, through: Product }],
+      include: [{ model: Product }],
     });
     if (!productData) {
       res.status(400).json({ message: 'Product not found' });
       return;
     }
-    res,status(200).json(productData);
+    res.status(200).json(productData);
   } catch (err) {
     res.status(500).json(err);
   }
 });
 
 // create new product
-router.post('/', async (req, res) => {
+router.post('/', (req, res) => {
   /* req.body should look like this...
     {
       product_name: "Basketball",
