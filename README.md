@@ -2,7 +2,7 @@
 
 ## Description
 
-I created this project to help aid retail stores with their inventory through an online database using MySql, Express.js API and Sequelize. Through this database theyll be able to delete, create, update and retrieve any item in their system.
+This is a project showing off backend therefore its functionality is recorded. I created this project to help aid retail stores with their inventory through an online database using MySql, Express.js, API routes and Sequelize. Through this database they'll be able to delete, create, update and retrieve any item in their system.
 
 
 ## Table of Contents
@@ -29,5 +29,5 @@ I created this project to help aid retail stores with their inventory through an
 
 ## Features
 
-This project GETS all tags, categories and products from the database. It also usues PUT and DELETE methods to perform Updates and deletes, on the backend, via insomnia.
+This project GETS all tags, categories and products from the database. It also uses PUT and DELETE methods to perform Updates and deletions on the backend, via insomnia.
 
